@@ -1,0 +1,88 @@
+#navdiv {
+    background-color: #f1f1f1;
+}
+
+nav {
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.signin {
+    margin-left: auto;
+    font-size: 20px;
+    font-style: oblique;
+    color: blue;
+}
+
+
+.signinlogo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin-left: 8px;
+}
+
+.searchbar:hover {
+    background-color: white;
+}
+
+.loginbtn {
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border: 0px solid rgb(221, 189, 189);
+
+}
+
+.loginbtn:hover {
+    background-color: rgb(109, 109, 248);
+}
+
+.cartbtn {
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border: 0px solid rgb(221, 189, 189);
+
+}
+.cartbtn:hover{
+    background-color: rgb(109, 109, 248);
+
+}
+.offerbtn{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border: 0px solid rgb(221, 189, 189);
+
+}
+.offerbtn:hover{
+    background-color: rgb(109, 109, 248);
+
+}
